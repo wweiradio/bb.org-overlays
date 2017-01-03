@@ -6,7 +6,7 @@ echo "build ${target}"
 cd $work_dir
 rm ./src/arm/$target
 make src/arm/$target
-echo "copy ${target} to cape-universaln-00A0.dtbo"
+echo "copy ${target} to /lib/firmware/cape-universaln-00A0.dtbo"
 cp src/arm/$target  /lib/firmware/cape-universaln-00A0.dtbo
 
 echo "done with the overlay" 
