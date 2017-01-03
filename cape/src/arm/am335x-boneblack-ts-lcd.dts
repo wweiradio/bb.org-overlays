@@ -256,15 +256,15 @@
             timing0: 800x480 {
                 hactive         = <800>;
                 vactive         = <480>;
-                hback-porch     = <40>;
-                hfront-porch    = <40>;
-                hsync-len       = <48>;
-                vback-porch     = <30>;
-                vfront-porch    = <13>;
-                vsync-len       = <3>;
+                hback-porch     = <46>;
+                hfront-porch    = <16>;
+                hsync-len       = <40>;
+                vback-porch     = <23>;
+                vfront-porch    = <22>;
+                vsync-len       = <20>;
                 clock-frequency = <30000000>;
-                hsync-active    = <0>;
-                vsync-active    = <0>;
+                hsync-active    = <1>;
+                vsync-active    = <1>;
             };
         };
     };
