@@ -1,3 +1,5 @@
+#!/usr/bin/env bash
+
 target=cape-universaln-00A0-ts-lcd.dtbo
 work_dir=./overlay
 echo "build ${target}"
